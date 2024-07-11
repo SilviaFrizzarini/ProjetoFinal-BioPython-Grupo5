@@ -1,4 +1,4 @@
-from sequencia import Sequencia
+from bio.sequencia import Sequencia
 
 class OrganismoFasta:
     def __init__(self, id, nome, sequencia):
@@ -6,5 +6,6 @@ class OrganismoFasta:
         self.nome = nome
         self.sequencia = Sequencia(sequencia)
 
-def mostrar_atributos(self):
-        print(f"ID: {self.id}, Nome: {self.nome}, Sequencia: {self.sequencia}")
+    def mostrar_atributos(self):
+            print(f"ID: {self.id}, Nome: {self.nome}, Sequencia: {self.sequencia}")
+
