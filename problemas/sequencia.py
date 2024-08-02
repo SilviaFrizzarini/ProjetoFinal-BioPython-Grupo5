@@ -112,7 +112,7 @@ class Sequencia:
           elif i=="T":
              base_T=base_T+1
           elif i=="C":
-             base_C==base_C+1
+             base_C=base_C+1
        percentual_A=base_A/len(self.sequencia)
        percentual_G=base_G/len(self.sequencia)
        percentual_T=base_T/len(self.sequencia)
